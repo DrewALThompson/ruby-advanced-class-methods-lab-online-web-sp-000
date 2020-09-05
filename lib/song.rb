@@ -14,5 +14,6 @@ class Song
     song = self.new 
     save
     song
+  end
     
 end
