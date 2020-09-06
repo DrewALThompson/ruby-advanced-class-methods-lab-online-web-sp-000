@@ -38,7 +38,7 @@ class Song
   end
   
   def self.alphabetical
-    @@all.sort {|a, z| a.name <=> b.name }
+    @@all.sort_by {|song| song.name }
   end
   
 end
